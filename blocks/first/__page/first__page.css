@@ -1,0 +1,23 @@
+.first__page {
+    background-color: #F3F3F3;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-template-areas:
+        "A A B"
+        "A A C"
+        "A A D";
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .first__page {
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "B"
+            "C"
+            "A"
+            "D";
+    }
+}

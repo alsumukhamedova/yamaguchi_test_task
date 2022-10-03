@@ -1,0 +1,14 @@
+.page {
+    font-family: 'Ubuntu', 'Bebas Neue', 'Montserrat', Arial, sans-serif;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    max-height: 1800px;
+    margin: 0 auto;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}

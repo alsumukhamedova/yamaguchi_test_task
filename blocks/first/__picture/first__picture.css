@@ -1,0 +1,17 @@
+.first__picture {
+    position: absolute;
+    background-size: cover;
+    width: 1476.76px;
+    height: 984.7px;
+    left: -233.75px;
+    top: -82px;
+    overflow: hidden;
+}
+.first__picture_up {
+    transition: ease .5s;
+    margin-bottom: 50px;
+}
+.first__picture_down {
+    transition: ease .5s;
+    margin-bottom: -50px;
+}

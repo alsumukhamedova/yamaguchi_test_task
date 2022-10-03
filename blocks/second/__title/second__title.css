@@ -1,0 +1,20 @@
+.second__title {
+    padding-left: 99px;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .second__title {
+        max-width: 305px;
+        padding-left: 0;
+    }
+}
+.second__title_grid_six {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-area: F;
+    margin: 0 auto;
+}

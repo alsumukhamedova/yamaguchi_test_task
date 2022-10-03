@@ -1,0 +1,36 @@
+.first__text {
+    font-family:  'Ubuntu', Arial, sans-serif;;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 37px;
+    color: #181818;
+    margin: 0 auto;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .first__text {
+        font-size: 16px;
+        line-height: 27px;
+        max-width: 291.02px;
+    }
+}
+
+.first__text_grid_two {
+    grid-column-start: 2;
+    grid-area: C;
+    padding-bottom: 30px;
+}
+
+.first__text_grid_three {
+    grid-column-start: 2;
+    grid-area: D;
+    padding-bottom: 50px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .first__text_grid_two {
+        padding-bottom: 0;
+    }
+
+    .first__text_grid_three {
+        padding-bottom: 43px;
+    }
+}

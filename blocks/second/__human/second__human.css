@@ -1,0 +1,12 @@
+.second__human {
+    z-index: 5;
+    max-height: 790.64px;
+    width: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .second__human {
+        max-width: 289.4px;
+        max-height: 756.22px;
+        width: 100%;
+    }
+}

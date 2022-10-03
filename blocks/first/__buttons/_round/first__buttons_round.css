@@ -1,0 +1,33 @@
+.first__buttons_round {
+    width: 200px;
+    height: 200px;
+    background: #A6FFFF;
+    border-radius: 50%;
+}
+.first__buttons_round:hover {
+     background: #0B64FE;
+     transition: ease-in-out .5s;
+     cursor: pointer;
+ }
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .first__buttons_round {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .first__buttons_round {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .first__buttons_round {
+        width: 61.15px;
+        height: 61.15px;
+    }
+}

@@ -1,0 +1,19 @@
+.first__container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.first__container_grid_four {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-area: A;
+    justify-items: center;
+    align-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .first__container {
+        width: 332.72px;
+        height: 266.95px;
+    }
+}

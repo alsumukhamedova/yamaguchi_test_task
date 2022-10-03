@@ -1,0 +1,13 @@
+.second__pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 435px;
+    max-height: 851.78px;
+}
+.second__pictures_grid_four {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-area: D;
+    margin: 0 auto;
+}

@@ -1,0 +1,17 @@
+.second__subtitle_one {
+    font-family: 'Ubuntu', Arial, sans-serif;;
+    font-weight: 900;
+    font-size: 44.7911px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .second__subtitle_one {
+        font-size: 38.6546px;
+        line-height: 35px;
+        padding-left: 16.12px;
+        padding-bottom: 10px;
+    }
+}

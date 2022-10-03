@@ -1,0 +1,26 @@
+.move{
+    animation: move linear 4s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+}
+@keyframes move {
+    0% {
+        transform: translate(1px, 20px);
+    }
+
+    24% {
+        transform: translate(1px, 30px);
+    }
+
+    50% {
+        transform: translate(1px, 12px);
+    }
+
+    74% {
+        transform: translate(1px, 22px);
+    }
+
+    100% {
+        transform: translate(1px, 22px);
+    }
+}
