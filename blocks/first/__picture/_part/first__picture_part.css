@@ -1,0 +1,8 @@
+.first__picture_up{
+    transition: ease .5s;
+    margin-bottom: 100px;
+}
+.first__picture_down{
+    transition: ease .5s;
+    margin-bottom: -100px;
+}
