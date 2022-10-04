@@ -7,6 +7,14 @@
     top: -82px;
     overflow: hidden;
 }
+@media screen and (min-width: 320px) and (max-width: 778px) {
+    .first__picture {
+        width: 503.54px;
+        height: 335.76px;
+        left: -84.48px;
+        top: -43.57px;
+    }
+}
 .first__picture_up {
     transition: ease .5s;
     margin-bottom: 50px;
